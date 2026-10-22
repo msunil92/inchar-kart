@@ -53,8 +53,11 @@ export function Footer() {
           </div>
         </div>
         <div className="noise-line my-10" />
-        <div className="flex flex-col gap-3 text-xs text-[var(--text-dim)] sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 Inchara Kart.</p>
+        <div className="flex flex-col gap-3 text-xs text-[var(--text-dim)] sm:flex-row sm:items-end sm:justify-between">
+          <div className="space-y-1">
+            <p>© 2026 Inchara Kart.</p>
+            <p>Developed by Sunil Mayanna</p>
+          </div>
           <p>Demo storefront — no real payments processed.</p>
         </div>
       </div>
